@@ -38,7 +38,7 @@ def canberra_modified(a,b):
 
 
 class Clustering:
-    def __init__(self, metric='euclidian', UMAP_neb=30, min_dist_UMAP=0.1, max_components=2):
+    def __init__(self, metric='euclidean', UMAP_neb=30, min_dist_UMAP=0.1, max_components=2):
         self.metric = metric
         self.UMAP_neb = UMAP_neb
         self.min_dist_UMAP = min_dist_UMAP
